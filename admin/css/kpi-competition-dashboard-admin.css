@@ -1,0 +1,1139 @@
+.kpi-dashboard-container {
+    margin-top: 20px;
+}
+
+.kpi-metrics-table {
+    margin-bottom: 30px;
+}
+
+.kpi-dashboard-actions {
+    margin-top: 20px;
+}
+
+.kpi-add-metric-form {
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+.kpi-add-metric-form select,
+.kpi-add-metric-form input[type="text"],
+.kpi-add-metric-form input[type="number"] {
+    min-width: 300px;
+}
+
+.wp-list-table th {
+    font-weight: 600;
+}
+
+.kpi-dashboard-container .description {
+    margin-top: 5px;
+    color: #666;
+}
+
+/* Competition Dashboard Admin Styles */
+
+/* Common Card Styles */
+.team-card,
+.competition-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+/* Headers */
+.team-header,
+.competition-header {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.team-header h2,
+.competition-header h2 {
+    margin: 0;
+    color: #23282d;
+    font-size: 1.3em;
+}
+
+.pod-name,
+.campaign-name {
+    color: #666;
+    margin: 5px 0;
+    font-style: italic;
+}
+
+/* Status Badges */
+.status-badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.status-active {
+    background-color: #00a32a;
+    color: #fff;
+}
+
+.status-upcoming {
+    background-color: #007cba;
+    color: #fff;
+}
+
+.status-completed {
+    background-color: #666;
+    color: #fff;
+}
+
+.status-paused {
+    background-color: #ca4a1f;
+    color: #fff;
+}
+
+/* Forms */
+.form-wrap {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.metric-row {
+    background: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.remove-metric {
+    margin-top: 10px;
+}
+
+/* Competition Dates */
+.competition-dates {
+    color: #666;
+    font-size: 0.9em;
+    margin: 10px 0;
+}
+
+.date-label {
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.date-separator {
+    margin: 0 10px;
+    color: #ddd;
+}
+
+/* Metrics Tables */
+.competition-metrics table,
+.team-metrics table {
+    margin-top: 10px;
+}
+
+.competition-metrics h3,
+.team-metrics h3 {
+    color: #23282d;
+    font-size: 1.1em;
+    margin: 20px 0 10px;
+}
+
+/* Leaderboard */
+.competition-leaderboard {
+    margin-top: 20px;
+}
+
+.top-three {
+    font-weight: 500;
+}
+
+.rank-1 {
+    background-color: #fff9e6;
+}
+
+.rank-2 {
+    background-color: #f9f9f9;
+}
+
+.rank-3 {
+    background-color: #fff5f2;
+}
+
+/* Leaderboard Styles */
+.leaderboard-section {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.competition-info {
+    background: #f9f9f9;
+    border-left: 4px solid #007cba;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+}
+
+.competition-info h2 {
+    margin: 0 0 10px;
+    color: #23282d;
+}
+
+.competition-details {
+    color: #666;
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Rank Medals */
+.rank-medal {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 600;
+}
+
+.rank-1 .rank-medal {
+    background: linear-gradient(135deg, #ffd700, #ffa500);
+    box-shadow: 0 2px 4px rgba(255, 215, 0, 0.3);
+}
+
+.rank-2 .rank-medal {
+    background: linear-gradient(135deg, #c0c0c0, #a0a0a0);
+    box-shadow: 0 2px 4px rgba(192, 192, 192, 0.3);
+}
+
+.rank-3 .rank-medal {
+    background: linear-gradient(135deg, #cd7f32, #a0522d);
+    box-shadow: 0 2px 4px rgba(205, 127, 50, 0.3);
+}
+
+/* Your Team Badge */
+.your-team-badge {
+    display: inline-block;
+    background: #00a32a;
+    color: #fff;
+    font-size: 0.8em;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+/* Metric Breakdown */
+.metric-description {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 3px;
+}
+
+/* Performance Graphs */
+.chart-container {
+    position: relative;
+    height: 400px;
+    margin-top: 20px;
+}
+
+/* Highlight Hover Effects */
+.wp-list-table tr:hover {
+    background-color: #f0f7ff !important;
+}
+
+.top-three:hover {
+    transform: translateY(-2px);
+    transition: transform 0.2s ease;
+}
+
+/* Responsive Design for Leaderboard */
+@media screen and (max-width: 782px) {
+    .competition-filter {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .competition-filter select,
+    .competition-filter label {
+        margin: 5px 0;
+    }
+    
+    .chart-container {
+        height: 300px;
+    }
+    
+    .wp-list-table th,
+    .wp-list-table td {
+        padding: 12px 8px;
+    }
+}
+
+/* Competition Filter Enhancements */
+.competition-filter {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.competition-filter select {
+    min-width: 250px;
+}
+
+.competition-filter label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+/* Animation for Updates */
+@keyframes highlight {
+    0% {
+        background-color: #fff7e6;
+    }
+    100% {
+        background-color: transparent;
+    }
+}
+
+.updated-row {
+    animation: highlight 2s ease-out;
+}
+
+/* Chart Tooltips */
+.chart-tooltip {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Team Members Section */
+.team-members {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+/* Actions */
+.competition-actions,
+.team-actions {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+
+.competition-actions .button,
+.team-actions .button {
+    margin-right: 10px;
+}
+
+/* Filters */
+.competition-filter,
+.pod-filter {
+    margin: 20px 0;
+}
+
+/* Points Preview */
+.points-preview {
+    color: #00a32a;
+    font-weight: 500;
+}
+
+/* No Data Messages */
+.no-data {
+    color: #666;
+    font-style: italic;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 782px) {
+    .form-table td {
+        padding: 15px 10px;
+    }
+    
+    .form-table input[type="text"],
+    .form-table select {
+        width: 100%;
+        max-width: none;
+    }
+    
+    .status-badge {
+        position: static;
+        margin-top: 10px;
+        display: inline-block;
+    }
+}
+
+/* Animations */
+.team-card,
+.competition-card {
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.team-card:hover,
+.competition-card:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+/* Input Focus States */
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #007cba;
+    box-shadow: 0 0 0 1px #007cba;
+}
+
+/* Button Hover States */
+.button:hover {
+    opacity: 0.9;
+}
+
+/* Dashboard Overview Styles */
+
+/* Stats Summary */
+.stats-summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.stat-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stat-card h3 {
+    margin: 0 0 10px;
+    color: #666;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.stat-card .stat-value {
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #23282d;
+}
+
+.total-points .stat-value {
+    color: #00a32a;
+}
+
+/* Dashboard Sections */
+.dashboard-section {
+    margin-bottom: 40px;
+}
+
+.dashboard-section h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Competition and Team Grids */
+.active-competitions-grid,
+.teams-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Competition Progress */
+.competition-progress {
+    margin: 15px 0;
+}
+
+.rank-info {
+    margin-bottom: 10px;
+}
+
+.rank-label {
+    color: #666;
+}
+
+.rank-value {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 0 5px;
+    color: #007cba;
+}
+
+.rank-total {
+    color: #666;
+}
+
+.points-progress {
+    margin-top: 10px;
+}
+
+.progress-bar {
+    height: 8px;
+    background: #f0f0f0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background: #007cba;
+    transition: width 0.3s ease;
+}
+
+.points-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    font-size: 0.9em;
+}
+
+.your-points {
+    color: #007cba;
+    font-weight: 500;
+}
+
+.leader-points {
+    color: #666;
+}
+
+/* Team Stats */
+.team-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.stat {
+    text-align: center;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 4px;
+}
+
+.stat-label {
+    display: block;
+    font-size: 0.8em;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+/* Team Rankings */
+.team-rankings {
+    margin-top: 20px;
+}
+
+.team-rankings h4 {
+    margin: 0 0 10px;
+    color: #23282d;
+}
+
+.ranking-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.ranking-item:last-child {
+    border-bottom: none;
+}
+
+.competition-name {
+    color: #23282d;
+    font-weight: 500;
+}
+
+.ranking {
+    color: #666;
+}
+
+/* Teams Management */
+.teams-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.team-box {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.team-members-list {
+    min-height: 100px;
+    border: 1px dashed #ccc;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.team-member {
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 8px;
+    margin: 5px 0;
+    cursor: move;
+    border-radius: 3px;
+}
+
+.team-member:hover {
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.team-member.sortable-ghost {
+    opacity: 0.4;
+}
+
+.team-member.sortable-chosen {
+    background: #e8f0fe;
+    border-color: #1e88e5;
+}
+
+/* Pod Agents Dialog Styles */
+.user-item, .agent-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    gap: 10px;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-name {
+    font-weight: bold;
+}
+
+.user-email {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.agent-role {
+    width: 120px;
+    margin-right: 10px;
+}
+
+.add-to-pod, .remove-from-pod {
+    padding: 4px 8px !important;
+}
+
+.agent-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.agent-item:last-child {
+    border-bottom: none;
+}
+
+.agent-name {
+    flex: 1;
+    margin: 0 15px;
+}
+
+.agent-role {
+    width: 120px;
+}
+
+.agent-select {
+    margin: 0;
+}
+
+#pod-agents-dialog .pod-name {
+    font-weight: bold;
+    color: #2271b1;
+}
+
+.agents-list {
+    max-height: 400px;
+    overflow-y: auto;
+    margin: 15px 0;
+}
+
+.pod-agents-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 15px 0;
+}
+
+.available-users, .assigned-agents {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#filter-users {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.users-list, .agents-list {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.user-item, .agent-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+.user-item:hover {
+    background-color: #f0f0f0;
+}
+
+.agent-name {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.agent-role {
+    width: 120px;
+    margin-right: 10px;
+}
+
+.remove-agent {
+    color: #dc3232;
+    cursor: pointer;
+}
+
+.add-user {
+    color: #46b450;
+}
+
+/* Pod Agents Collapsible Section */
+.pod-agents-section {
+    display: none;
+    background: #f8f9fa;
+    border: 1px solid #e2e4e7;
+    border-radius: 0 0 4px 4px;
+    margin-top: -1px;
+    padding: 15px;
+}
+
+.pod-row {
+    border: 1px solid #e2e4e7;
+    margin-bottom: 10px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.pod-row.expanded {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.pod-main {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.pod-main:hover {
+    background: #f8f9fa;
+}
+
+.pod-toggle {
+    margin-left: auto;
+}
+
+.pod-toggle .dashicons {
+    transition: transform 0.2s ease;
+}
+
+.pod-row.expanded .pod-toggle .dashicons {
+    transform: rotate(180deg);
+}
+
+.pod-agents-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* Pod List Styling */
+.pods-list-wrap {
+    margin: 20px 0;
+}
+
+.pod-row {
+    border: 1px solid #e2e4e7;
+    margin-bottom: 15px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.pod-row.expanded {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.pod-main {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.pod-main:hover {
+    background: #f9f9f9;
+}
+
+.pod-logo {
+    flex: 0 0 60px;
+}
+
+.pod-logo img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+.pod-info {
+    flex: 1;
+}
+
+.pod-info strong {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #1d2327;
+}
+
+.pod-campaign {
+    color: #646970;
+    font-size: 13px;
+}
+
+.pod-actions {
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.pod-actions .button {
+    min-width: 70px;
+    text-align: center;
+}
+
+.pod-toggle {
+    color: #646970;
+    padding: 5px;
+}
+
+.pod-toggle .dashicons {
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+}
+
+.pod-agents-section {
+    border-top: 1px solid #e2e4e7;
+    padding: 25px;
+    background: #f6f7f7;
+}
+
+.pod-agents-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.available-users,
+.assigned-agents {
+    background: #fff;
+    border: 1px solid #e2e4e7;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.available-users h3,
+.assigned-agents h3 {
+    margin: 0 0 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e2e4e7;
+    font-size: 14px;
+    color: #1d2327;
+}
+
+.filter-users {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #e2e4e7;
+    border-radius: 4px;
+}
+
+.users-list,
+.agents-list {
+    max-height: 500px;
+    overflow-y: auto;
+    padding: 5px;
+}
+
+.user-item,
+.agent-item {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border: 1px solid #e2e4e7;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    background: #fff;
+}
+
+.user-item:last-child,
+.agent-item:last-child {
+    margin-bottom: 0;
+}
+
+.user-item:hover {
+    background: #f0f0f1;
+}
+
+.user-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.user-info {
+    flex: 1;
+}
+
+.user-name {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 2px;
+    color: #1d2327;
+}
+
+.user-email {
+    font-size: 12px;
+    color: #646970;
+}
+
+.agent-role {
+    width: 120px;
+    margin: 0 10px;
+    padding: 6px;
+}
+
+/* Pod Agents Actions */
+.pod-agents-actions {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #e2e4e7;
+    text-align: right;
+}
+
+.save-status {
+    color: #646970;
+    margin-right: 10px;
+    display: none;
+}
+
+.save-status.success {
+    color: #00a32a;
+}
+
+.save-status.error {
+    color: #d63638;
+}
+
+/* Competition Pod Selection */
+.pods-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.pod-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+.pod-item label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.pod-item input[type="checkbox"] {
+    margin: 0;
+}
+
+/* Emoji Input Group */
+.emoji-input-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.emoji-input {
+    width: 60px;
+    font-size: 16px;
+}
+
+.emoji-info-icon {
+    color: #2271b1;
+    cursor: help;
+    position: relative;
+}
+
+.emoji-info-tooltip {
+    display: none;
+    position: absolute;
+    left: 24px;
+    top: -5px;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 280px;
+    z-index: 100;
+}
+
+.emoji-info-icon:hover .emoji-info-tooltip {
+    display: block;
+}
+
+.platform-instructions {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.platform-instructions li {
+    margin-bottom: 8px;
+}
+
+.platform-name {
+    font-weight: bold;
+}
+
+/* KPI Rules Section */
+.kpi-rule-form {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.kpi-rules-list {
+    margin-top: 20px;
+}
+
+.rule-item {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+.rule-emoji {
+    font-size: 20px;
+    margin-right: 15px;
+    min-width: 30px;
+    text-align: center;
+}
+
+.rule-details {
+    flex: 1;
+}
+
+.rule-name {
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.rule-points {
+    color: #666;
+    font-size: 13px;
+}
+
+.rule-actions {
+    display: flex;
+    gap: 8px;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 782px) {
+    .stats-summary {
+        grid-template-columns: 1fr;
+    }
+    
+    .team-stats {
+        grid-template-columns: 1fr;
+    }
+    
+    .points-info {
+        flex-direction: column;
+        text-align: center;
+        gap: 5px;
+    }
+}
